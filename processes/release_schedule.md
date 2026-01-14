@@ -8,14 +8,17 @@ For your customers, partners and for the long-term planning MORYX has commited o
 
 | Verions | Original release date | End of active support | End of maintenance support |
 |---------|-----------------------|-----------------------|----------------------------|
-| MORYX 10 | ~ Nov 2025 | ~ May 2028  | ~ Nov 2030  |
-| MORYX 8 | Nov 2023 | ~ May 2026  | ~ Nov 2028  |
-| MORYX 6 | Feb, 20 2023 | ~ May 2024  | ~ Nov 2026  |
+| MORYX 12 | ~ Nov 2027 | ~ May 2030 | ~ Nov 2032 |
+| MORYX 10 | ~ Nov 2025 | ~ May 2028 | ~ Nov 2030 |
+| MORYX 8  | Nov 2023   | ~ May 2026 | ~ Nov 2028 |
+| MORYX 6  | Feb, 20 2023 | ~ May 2024  | ~ Nov 2026  |
 | pre MORYX 6 | several | ~ Feb, 20 2023  | ~ Nov 2025  |
 
 ### MORYX Release Cadence
 
-![MORYX Release Schedule](../images/release-schedule.png)
+![MORYX Release Schedule](/images/release-schedule.png)
+
+*Note: This image gives a general overview but is not necessarily up to date with the current versions.*
 
 *Note: The adjustement to the regular support periods is a process. MORYX 8 will be the first release fully adheering to the support period definitions in the subsequent paragraphs.*
 
