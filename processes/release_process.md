@@ -52,23 +52,6 @@ Go to *Releases -> Draft a new Release*
 
 ![Create GitHub Release](../images/github-release.png)
 
-`Gitlab Repository -> Deployments -> Releases -> New Release`
-
-- [ ] Create Tag `vMAJOR.MINOR.PATCH` (for example v3.2.1)  
-*Note: Make sure to release a MINOR if new features were introduced. Someone might have forgotten to update the VERISON file or the Milestone*
-- [ ] Set Name `vMAJOR.MINOR.PATCH` (for example v3.2.1)
-- [ ] Set Create From to main (or short lived release branch if you used one)
-- [ ] Link Milestone for version `vMAJOR.MINOR.PATCH` (for example v3.2.1)  
-
-- [ ] Create Release notes (automatically on Github)
-  - Bugfix example: - Fix: ``[Description](link)``
-  - Hotfix example: - Hotfix: ``[Description](link)``
-  - Package Updates: - Packages: ``[Description](link)``
-  - Feature example: - Feature: ``[Description](link)``
-  - Optimization example: - Optimization: ``[Description](link)``
-- [ ] Click Release
-**Both**
-
 - [ ] Verify that the Pipeline ran without issues and that a new package exists on the feeds
   - [release](https://www.nuget.org/packages/Moryx) feeds for C# projects
   - [moryx-npm release](https://www.myget.org/F/moryx/npm) feed for Angular projects
@@ -109,24 +92,3 @@ Go to *Releases -> Draft a new Release*
   - `Package.json` for Angular projects
   - `VERSION` file for C# projects
 - [ ] Create Milestone for **new** MAJOR Version `MAJOR.0.0` (for example 8.0.0) on GitHub or GitLab
-
-### Release Announcment Template
-
-````md
-### (rocket)  MORYX Release Announcement (rocket)
-
-*Remember: Changes in MINOR/PATCH need no changes in Code or Database*
-
-#### General
-
-(bulb) Hint: Some hint
-
-#### [Project vMAJOR.MINOR.PATCH](http://gitlab-swtd.europe.phoenixcontact.com/moryx/PROJECT/tags/vMAJOR.MINOR.PATCH)
-
-- (herb) Feature: [Some Feature](link)
-- (beetle) Fix: [Some Fix](link)
-- (package) Bundles: [Some Bundles](link)
-- (speedboat) Optimization: [Some Optimizations](link)
-- (fire) Hotfix: [Some Hotfix](link)
-
-````
