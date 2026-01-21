@@ -53,4 +53,4 @@ Please inform yourself about what these might be depending on the functionality 
 
 ## Take a look at the module specific guidlines
 
-- [MORYX Media](https://github.com/PHOENIXCONTACT/MORYX-Framework/blob/future/docs/articles/module-media/SecurityGuidelines.md)
+- [MORYX Media](https://github.com/PHOENIXCONTACT/MORYX-Framework/blob/main/docs/articles/module-media/SecurityGuidelines.md)

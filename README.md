@@ -14,11 +14,11 @@ This repository serves as the central information hub for MORYX developers. Here
 
 - **Release Process**  
   Step-by-step instructions on how to create releases and manage versioning for Github repositories.  
-  *See*: [`processes/release_process.md`](processes/release_process.md)
+  *See*: [`processes/release-process.md`](processes/release-process.md)
 
 - **General Development Guidelines**  
   Best practices for code documentation, maintaining security, and overall development standards for MORYX projects.  
-  *See*: [`development/documentationGuidelines.md`](/development/documentationGuidelines.md)
+  *See*: [`development/documentation-guidelines.md`](/development/documentation-guidelines.md)
 
 ## Coding Conventions
 
