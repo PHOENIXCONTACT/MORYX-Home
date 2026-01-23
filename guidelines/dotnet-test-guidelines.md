@@ -97,7 +97,7 @@ Since method names often become very long and hard to read, it is good to provid
 ## Sample
 
 ````cs
-[Test(Description = "Adding empty string returns zero.")]
+[Test(Description = "Adding empty string returns zero. Zero is the default for empty strings.")]
 public void Add_EmptyString_ReturnsZero()
 {
     // Arrange
