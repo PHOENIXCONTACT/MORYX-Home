@@ -2,7 +2,7 @@
 
 There are countless, similar definitions for Endpoints in literature and on the web (e.g. on [smartbear.com](https://smartbear.com/learn/performance-monitoring/api-Endpoints/) or [techtarget.com](https://www.techtarget.com/searchapparchitecture/definition/RESTful-API)).
 An Endpoint in the MORYX-Framework acts in line with the general concept these definitions outline.
-Therefore, this document merely reframes these definitions using the terms introduced in the [MORYX Design Guidelines](designguidelines.md).
+Therefore, this document merely reframes these definitions using the terms introduced in the `MORYX Design Guidelines`.
 In addition, this article points out how to integrate an Endpoint in the MORYX-Framework with some Do's and Dont's along the way.
 
 ## MORYX Endpoints

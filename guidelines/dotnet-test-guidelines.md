@@ -11,7 +11,7 @@ In MORYX we use the following tools and packages to write tests:
 
 ## Naming Convention 
 
-Use the pattern: **`MethodName_Scenario_ExpectedBehavior`**
+Use the pattern: `MethodName_Scenario_ExpectedBehavior`
 
 ```csharp
 // Bad
@@ -30,21 +30,21 @@ The `MethodName_Scenario_ExpectedBehavior` pattern is a **recommendation**, not 
 
 **Option 1: Just describe the behavior**
 
-```cs
+```csharp
 public void ReturnsZeroForEmptyString() { }
 public void ThrowsOnNegativeNumbers() { }
 ```
 
 **Option 2: Scenario and result**
 
-```cs
+```csharp
 public void EmptyString_ReturnsZero() { }
 public void NegativeNumber_Throws() { }
 ```
 
 **Option 3: Natural language style**
 
-```cs
+```csharp
 public void Should_return_zero_when_string_is_empty() { }
 ```
 
@@ -61,7 +61,7 @@ public void Should_return_zero_when_string_is_empty() { }
 Microsoft recommends structuring tests with clear AAA sections:
 
 ```csharp
-[Fact]
+[Test]
 public void Add_EmptyString_ReturnsZero()
 {
     // Arrange
@@ -92,7 +92,7 @@ public void Add_EmptyString_ReturnsZero()
 
 ## Fill Test Description
 
-Since method names often become very long and hard to read, it is good to provide a value for the `Description` property of the `Test` or `TestCase` attribute.
+Since method names often become very long and hard to read, it is good to provide a value for the `Description` property of the `Test` or `TestCase` attribute. The `Description` should also contain the intention of the result.
 
 ## Sample
 

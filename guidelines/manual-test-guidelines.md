@@ -27,10 +27,6 @@ The term *Full User Interaction* is referred to several times in this document. 
 
 **Additional Remark:** Document time it took you to test a module (to have indications where to start with automated testing) at the bottom of the 0_index.md of your module.
 
-## Style
-
-For the style look at the [template](./tests/manual_test_template.md).
-
 ## Folder and File structure
 
 Files for manual tests are saved in the project repository in the folder `docs\manualTests\<ModuleName>`. Each TestCase must have its own file. To give a better overview, you should numerate the files.
