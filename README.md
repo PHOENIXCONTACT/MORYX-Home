@@ -18,7 +18,11 @@ This repository serves as the central information hub for MORYX developers. Here
 
 - **General Development Guidelines**  
   Best practices for code documentation, maintaining security, and overall development standards for MORYX projects.  
-  *See*: [`development/documentation-guidelines.md`](/development/documentation-guidelines.md)
+  *See*: [`guidelines/documentation-guidelines.md`](guidelines/documentation-guidelines.md)
+
+- **Pull Request Guidelines**  
+  To ensure a clean, consistent, and efficient workflow, the pull-request pipelines should applied.  
+  *See*: [`guidelines/pull-request-guidelines.md`](guidelines/pull-request-guidelines.md)
 
 ## Coding Conventions
 
@@ -26,8 +30,8 @@ This repository serves as the central information hub for MORYX developers. Here
   Follow the official C# coding style and conventions  
   *See*: [Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
-  For unit tests, adhere to Microsoft's best practices  
-  *See*: [Best Practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
+  For unit tests, adhere to to the guidelines
+  *See*: [Writing .NET Tests](guidelines/dotnet-test-guidelines.md)
 
   EditorConfig settings should use the standards defined in [.NET ASP.NET Core's .editorconfig](https://github.com/dotnet/aspnetcore/blob/main/.editorconfig), with the addition of the Phoenix Contact and Apache License headers.
 
