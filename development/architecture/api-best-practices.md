@@ -187,6 +187,22 @@ Array properties should default to `[]`, never `null`. In JSON, `null` and `[]` 
 
 ---
 
+### 5.3 Server-Sent Events
+
+SSE endpoints must handle module restarts and reconnect automatically.
+
+Streaming endpoints must not assume that the underlying event source remains available for the entire lifetime of the HTTP connection. Modules can be restarted, temporarily become unavailable, or change their lifecycle state while clients remain connected.
+
+To ensure reliable notification delivery, SSE endpoints should automatically reconnect to the event source when it becomes available again and continue streaming updates without requiring the client to establish a new connection.
+
+This prevents stale UI state after temporary server interruptions and ensures that clients continue to receive notification updates after module restarts or lifecycle transitions.
+
+**More information:**
+
+- [Server-Sent Events Specification](https://html.spec.whatwg.org/multipage/server-sent-events.html)
+
+---
+
 ## 6. Authorization
 
 ### 6.1 Permission constants
