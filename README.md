@@ -39,7 +39,7 @@ This repository serves as the central information hub for MORYX developers. Here
   Angular code should use the [Angular .editorconfig](https://github.com/angular/angular/blob/main/.editorconfig) to guarantee aligned code formatting and style across contributors.
 
   Follow UI Guidelines
-  *See*: [Text Truncation & Ellipsis Guidelines](guidelines/ellipsis-guidelines.md)
+  *See*: [Text Truncation & Ellipsis Guidelines](guidelines/ellipsis-guidelines.md), [Angular Dialog Guidelines](guidelines/angular-dialog-guidelines.md)
 
 ## Getting Started
 
