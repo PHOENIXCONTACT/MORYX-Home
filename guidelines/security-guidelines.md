@@ -103,6 +103,14 @@ By design, installed MORYX modules and their UIs can communicate freely within t
 - Use only modules from trustworthy vendors. Modules published directly by the MORYX team are maintained by PHOENIX CONTACT; modules from third-party sources require your own security assessment.
 - Review the source, licensing, and update history of any third-party module before integrating it into a production application.
 
+### Custom MORYX Modules
+
+Modules you develop yourself — especially those with their own UI — introduce additional attack surface that is entirely your responsibility.
+
+- Apply the same security practices to your module as to the host application (authentication, input validation, no hard-coded credentials).
+- If your module exposes its own endpoints or UI, protect them with `[Authorize(Policy = …)]` just like any other controller.
+- Familiarise yourself with the vulnerability classes relevant to your module's functionality (e.g. injection flaws for modules that process external data, XSS for modules with a web UI).
+
 ## 12. Supported Versions and End-of-Life
 
 MORYX follows the [.NET LTS release schedule](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core).
