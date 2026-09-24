@@ -66,7 +66,6 @@ See [Microsoft's security considerations for static files](https://learn.microso
 
 MORYX logging is built on `Microsoft.Extensions.Logging` (see [Logging](https://github.com/PHOENIXCONTACT/MORYX-Framework/blob/dev/docs/articles/framework/logging.md)). For production:
 
-- Use a minimum level of `Warning`; enable `Debug` only temporarily for incident investigation.
 - Never log credentials, tokens, personal data, or raw request bodies.
 - Forward logs to a centralised, access-controlled and tamper-resistant sink with an appropriate retention period.
 
