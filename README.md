@@ -24,6 +24,10 @@ This repository serves as the central information hub for MORYX developers. Here
   To ensure a clean, consistent, and efficient workflow, the pull-request pipelines should applied.  
   *See*: [`guidelines/pull-request-guidelines.md`](guidelines/pull-request-guidelines.md)
 
+- **Security Integration Guidelines**  
+  Security-relevant steps an integrator must take when building and deploying a product on top of the MORYX Framework, covering authentication, secrets, transport security, network hardening, and more.  
+  *See*: [`guidelines/security-guidelines.md`](guidelines/security-guidelines.md)
+
 ## Coding Conventions
 
 - **C#/.NET Projects**  
