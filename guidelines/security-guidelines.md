@@ -81,7 +81,7 @@ If your application uses the Media module, follow the [MORYX-Media Security Guid
 
 - Expose only the ports the application actually needs (typically 443 for HTTPS). Place MORYX behind a reverse proxy rather than exposing Kestrel directly to a public network.
 - Keep the database reachable only from the application host.
-- If the OPC UA or MQTT drivers are enabled, restrict their ports to the industrial network segment.
+- If OPC UA or MQTT integrations are used, ensure that communication with the corresponding servers or brokers is restricted to trusted industrial network segments.
 
 ## 10. Principle of Least Privilege
 
